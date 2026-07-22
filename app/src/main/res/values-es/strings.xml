@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Localization scaffolding, not a complete translation. Covers the
+     highest-visibility strings (navigation, core actions, settings sections, empty states,
+     onboarding) — everything else falls back to values/strings.xml (English) automatically,
+     which is normal Android resource behavior, not a bug. Full coverage of this app's ~280
+     strings needs a real translation pass. -->
+<resources>
+    <string name="title_library">Biblioteca</string>
+    <string name="title_browse">Explorar</string>
+    <string name="title_history">Historial</string>
+    <string name="title_settings">Ajustes</string>
+    <string name="title_book_info">Información del libro</string>
+    <string name="title_statistics">Estadísticas</string>
+    <string name="action_back">Atrás</string>
+    <string name="action_cancel">Cancelar</string>
+    <string name="action_save">Guardar</string>
+    <string name="action_delete">Eliminar</string>
+    <string name="action_search">Buscar</string>
+    <string name="category_all">Todos</string>
+    <string name="library_empty_title">Tu biblioteca está vacía</string>
+    <string name="library_empty_body">Importa un libro desde Explorar para empezar a leer.</string>
+    <string name="section_appearance">Apariencia</string>
+    <string name="section_general">General</string>
+    <string name="section_about">Acerca de</string>
+    <string name="section_statistics">Estadísticas</string>
+    <string name="section_backup">Copia de seguridad y restauración</string>
+    <string name="setting_language">Idioma</string>
+    <string name="language_system_default">Predeterminado del sistema</string>
+    <string name="press_back_again_to_exit">Pulsa atrás de nuevo para salir</string>
+    <string name="onboarding_tagline">Tus libros, tu dispositivo, tus reglas.</string>
+    <string name="action_get_started">Empezar</string>
+    <string name="field_title">Título</string>
+    <string name="field_author">Autor</string>
+    <string name="field_description">Descripción</string>
+    <string name="action_export_backup">Exportar copia de seguridad</string>
+    <string name="action_import_backup">Importar copia de seguridad</string>
+    <string name="crash_title">Algo salió mal</string>
+    <string name="crash_action_restart">Reiniciar app</string>
+</resources>

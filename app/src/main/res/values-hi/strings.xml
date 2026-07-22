@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Localization scaffolding, not a complete translation — see values-es
+     for the full rationale. -->
+<resources>
+    <string name="title_library">लाइब्रेरी</string>
+    <string name="title_browse">ब्राउज़ करें</string>
+    <string name="title_history">इतिहास</string>
+    <string name="title_settings">सेटिंग्स</string>
+    <string name="title_book_info">पुस्तक जानकारी</string>
+    <string name="title_statistics">आँकड़े</string>
+    <string name="action_back">वापस</string>
+    <string name="action_cancel">रद्द करें</string>
+    <string name="action_save">सहेजें</string>
+    <string name="action_delete">हटाएं</string>
+    <string name="action_search">खोजें</string>
+    <string name="category_all">सभी</string>
+    <string name="library_empty_title">आपकी लाइब्रेरी खाली है</string>
+    <string name="library_empty_body">पढ़ना शुरू करने के लिए ब्राउज़ से एक किताब आयात करें।</string>
+    <string name="section_appearance">रूप-रंग</string>
+    <string name="section_general">सामान्य</string>
+    <string name="section_about">ऐप के बारे में</string>
+    <string name="section_statistics">आँकड़े</string>
+    <string name="section_backup">बैकअप और पुनर्स्थापना</string>
+    <string name="setting_language">भाषा</string>
+    <string name="language_system_default">सिस्टम डिफ़ॉल्ट</string>
+    <string name="press_back_again_to_exit">बाहर निकलने के लिए फिर से वापस दबाएं</string>
+    <string name="onboarding_tagline">आपकी किताबें, आपका डिवाइस, आपके नियम।</string>
+    <string name="action_get_started">शुरू करें</string>
+    <string name="field_title">शीर्षक</string>
+    <string name="field_author">लेखक</string>
+    <string name="field_description">विवरण</string>
+    <string name="action_export_backup">बैकअप निर्यात करें</string>
+    <string name="action_import_backup">बैकअप आयात करें</string>
+    <string name="crash_title">कुछ गलत हो गया</string>
+    <string name="crash_action_restart">ऐप पुनः आरंभ करें</string>
+</resources>

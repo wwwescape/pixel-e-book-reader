@@ -1,0 +1,356 @@
+<resources>
+    <string name="app_name">Pixel E-Book Reader</string>
+
+    <string name="crash_title">Something went wrong</string>
+    <string name="crash_body">Pixel E-Book Reader ran into an unexpected error and had to close. You can copy or share the details below to help fix it.</string>
+    <string name="crash_action_restart">Restart app</string>
+
+    <string name="title_library">Library</string>
+    <string name="title_browse">Browse</string>
+    <string name="title_history">History</string>
+    <string name="title_settings">Settings</string>
+    <string name="title_manage_categories">Manage Categories</string>
+    <string name="title_book_info">Book Info</string>
+    <string name="title_statistics">Statistics</string>
+    <string name="action_back">Back</string>
+    <string name="action_cancel">Cancel</string>
+    <string name="action_save">Save</string>
+    <string name="action_delete">Delete</string>
+    <string name="action_remove">Remove</string>
+    <string name="action_search">Search</string>
+
+    <string name="library_empty_title">Your library is empty</string>
+    <string name="library_empty_body">Import a book from Browse to start reading.</string>
+    <plurals name="library_book_count">
+        <item quantity="one">%1$d book</item>
+        <item quantity="other">%1$d books</item>
+    </plurals>
+    <string name="category_all">All</string>
+    <string name="action_display_options">Display options</string>
+    <string name="option_layout">Layout</string>
+    <string name="layout_grid">Grid view</string>
+    <string name="layout_list">List view</string>
+    <string name="option_title_position">Title position</string>
+    <string name="option_title_below">Below</string>
+    <string name="option_title_overlay">Overlay</string>
+    <string name="option_show_progress">Show progress</string>
+    <string name="option_show_book_count">Show book count</string>
+    <string name="option_sort_by">Sort by</string>
+    <string name="sort_title">Title</string>
+    <string name="sort_author">Author</string>
+    <string name="sort_last_read">Last read</string>
+    <string name="sort_date_added">Date added</string>
+    <string name="sort_series">Series</string>
+    <string name="sort_rating">Rating</string>
+    <string name="sort_name">Name</string>
+    <string name="sort_date">Date</string>
+    <string name="sort_size">Size</string>
+    <string name="sort_ascending">Ascending</string>
+    <string name="sort_descending">Descending</string>
+    <string name="option_filter_by_tag">Filter by tag</string>
+    <string name="option_filter_by_rating">Minimum rating</string>
+    <plurals name="rating_star_content_description">
+        <item quantity="one">Rate %1$d star</item>
+        <item quantity="other">Rate %1$d stars</item>
+    </plurals>
+    <plurals name="min_rating_star_content_description">
+        <item quantity="one">Minimum %1$d star</item>
+        <item quantity="other">Minimum %1$d stars</item>
+    </plurals>
+    <plurals name="selection_count">
+        <item quantity="one">%1$d selected</item>
+        <item quantity="other">%1$d selected</item>
+    </plurals>
+    <string name="action_add_to_category">Add to category</string>
+
+    <string name="category_new_placeholder">New category</string>
+    <string name="action_add_category">Add category</string>
+    <string name="action_move_up">Move up</string>
+    <string name="action_move_down">Move down</string>
+    <string name="action_rename">Rename</string>
+    <string name="category_empty_title">No categories yet</string>
+    <string name="category_empty_body">Add a category above to start organizing your library.</string>
+    <string name="category_delete_title">Delete category?</string>
+    <string name="category_delete_body">\"%1$s\" will be removed. Books stay in your library.</string>
+
+    <string name="browse_section_folders">Folders</string>
+    <string name="browse_empty_title">No folders added yet</string>
+    <string name="browse_empty_body">Add a folder to browse and import books from it — anything you add there later shows up too.</string>
+    <string name="action_add_folder">Add Folder</string>
+    <string name="action_add_file">Import a single file</string>
+    <string name="browse_single_file_hint">Imports once, right into your Library — for a folder you\'ll keep adding to, add it as a folder above instead.</string>
+    <string name="action_toggle_layout">Toggle layout</string>
+    <string name="action_sort">Sort</string>
+    <string name="browse_folder_empty">Nothing to import here — supported books and subfolders will show up.</string>
+    <string name="browse_importing">Importing %1$s…</string>
+    <string name="browse_import_success">\"%1$s\" added to your library</string>
+    <string name="browse_import_failure">Couldn\'t import %1$s</string>
+    <string name="action_open">Open</string>
+
+    <string name="field_title">Title</string>
+    <string name="field_author">Author</string>
+    <string name="field_description">Description</string>
+    <string name="field_series">Series</string>
+    <string name="field_series_number">#</string>
+    <string name="field_rating">Rating</string>
+    <string name="field_tags">Tags</string>
+    <string name="field_tags_placeholder">fantasy, favorites, borrowed</string>
+    <string name="field_isbn">ISBN</string>
+    <string name="field_publish_date">Publish date</string>
+    <string name="field_language">Language</string>
+    <string name="field_linked_file">Linked file</string>
+    <string name="field_categories">Categories</string>
+    <string name="action_relink">Relink</string>
+    <string name="action_replace_cover">Replace cover</string>
+    <string name="action_reset_cover">Reset cover</string>
+    <string name="action_delete_cover">Delete cover</string>
+    <string name="book_delete_title">Delete book?</string>
+    <string name="book_delete_body">\"%1$s\" and its reading history will be removed. The original file is untouched.</string>
+
+    <string name="history_empty_title">No reading history yet</string>
+    <string name="history_empty_body">Books you open will show up here.</string>
+    <string name="history_today">Today</string>
+    <string name="history_yesterday">Yesterday</string>
+    <string name="history_entry_deleted">Removed from history</string>
+    <string name="action_undo">Undo</string>
+    <string name="action_clear_history">Clear history</string>
+    <string name="history_clear_title">Clear all history?</string>
+    <string name="history_clear_body">This removes your entire reading history. Books stay in your library.</string>
+
+    <string name="reader_error_title">Couldn\'t open this book</string>
+    <string name="reader_error_body">The file may have moved, or its format isn\'t supported yet.</string>
+    <string name="reader_progress_percent">%1$d%%</string>
+    <string name="reader_no_chapters">This book doesn\'t have chapter markers.</string>
+    <string name="action_chapters">Chapters</string>
+    <string name="action_undo_checkpoint">Undo jump</string>
+    <string name="action_toggle_immersive">Toggle fullscreen</string>
+    <string name="action_copy">Copy</string>
+    <string name="action_share">Share</string>
+    <string name="action_highlight">Highlight</string>
+    <string name="action_add_bookmark">Add bookmark</string>
+    <string name="action_remove_bookmark">Remove bookmark</string>
+    <string name="tab_bookmarks">Bookmarks</string>
+    <string name="tab_highlights">Highlights</string>
+    <string name="reader_no_bookmarks">No bookmarks yet. Tap the bookmark icon while reading to add one.</string>
+    <string name="reader_no_highlights">No highlights yet. Copy some text while reading, then tap Highlight and pick a color.</string>
+    <string name="highlight_declined_message">Couldn\'t find that text near your current position. Copy a shorter, more specific passage and try again.</string>
+    <string name="highlight_copy_first_message">Copy some text first, then tap Highlight.</string>
+
+    <string name="action_reader_settings">Reader settings</string>
+    <string name="action_cycle_color_preset">Switch color preset</string>
+    <string name="reader_progress_count">%1$d / %2$d</string>
+
+    <string name="action_jump_to_page">Jump to page</string>
+    <string name="jump_to_page_hint">Page (1–%1$d)</string>
+    <string name="action_go">Go</string>
+    <string name="action_first_page">First page</string>
+    <string name="action_previous_page">Previous page</string>
+    <string name="action_next_page">Next page</string>
+    <string name="action_last_page">Last page</string>
+    <string name="title_pdf_reader_settings">Page reader settings</string>
+    <string name="setting_page_turn_effect">Page turn effect</string>
+    <string name="bookmark_page_snippet">Page %1$d</string>
+
+    <string name="tab_settings_general">General</string>
+    <string name="tab_settings_reader">Reader</string>
+    <string name="tab_settings_colors">Colors</string>
+    <string name="section_font">Font</string>
+    <string name="section_text">Text</string>
+    <string name="section_horizontal_limiter">Horizontal limiter</string>
+    <string name="section_perception_expander">Perception expander</string>
+    <string name="section_highlighted_reading">Highlighted reading</string>
+    <string name="section_gestures">Gestures</string>
+    <string name="section_images">Images</string>
+    <string name="section_progress_reading">Progress &amp; reading</string>
+
+    <string name="setting_readability_preset">Apply readability preset</string>
+    <string name="setting_font_family">Font family</string>
+    <string name="font_family_system">System default</string>
+    <string name="font_family_serif">Serif</string>
+    <string name="font_family_sans_serif">Sans serif</string>
+    <string name="font_family_monospace">Monospace</string>
+    <string name="setting_font_weight">Font weight</string>
+    <string name="font_weight_light">Light</string>
+    <string name="font_weight_normal">Normal</string>
+    <string name="font_weight_medium">Medium</string>
+    <string name="font_weight_semi_bold">Semi bold</string>
+    <string name="font_weight_bold">Bold</string>
+    <string name="setting_italic">Italic</string>
+    <string name="setting_font_size">Font size</string>
+    <string name="setting_line_height">Line height</string>
+    <string name="setting_paragraph_height">Paragraph spacing</string>
+    <string name="setting_paragraph_indentation">Paragraph indentation</string>
+    <string name="setting_side_padding">Side padding</string>
+    <string name="setting_vertical_padding">Vertical padding</string>
+    <string name="setting_letter_spacing">Letter spacing</string>
+    <string name="setting_text_align">Text alignment</string>
+    <string name="setting_chapter_title_align">Chapter title alignment</string>
+    <string name="align_start">Start</string>
+    <string name="align_center">Center</string>
+    <string name="align_end">End</string>
+    <string name="align_justify">Justify</string>
+
+    <string name="preset_default">App default</string>
+    <string name="action_add_preset">Add preset</string>
+    <string name="preset_name_placeholder">Preset name</string>
+    <string name="field_background_color">Background color</string>
+    <string name="field_font_color">Font color</string>
+    <string name="setting_fast_color_switch">Fast switch (top bar shortcut)</string>
+
+    <string name="setting_limiter_enabled">Enable reading ruler</string>
+    <string name="setting_limiter_height">Ruler band height</string>
+    <string name="setting_limiter_vertical_offset">Vertical offset</string>
+    <string name="setting_limiter_ruler_enabled">Show ruler lines</string>
+    <string name="setting_limiter_ruler_thickness">Ruler thickness</string>
+    <string name="setting_limiter_dimming">Dimming</string>
+
+    <string name="setting_expander_enabled">Enable perception expander</string>
+    <string name="setting_expander_padding">Margin padding</string>
+    <string name="setting_expander_thickness">Accent thickness</string>
+
+    <string name="setting_highlight_enabled">Enable highlighted reading</string>
+    <string name="setting_highlight_thickness">Highlight intensity</string>
+
+    <string name="setting_swipe_mode">Horizontal swipe mode</string>
+    <string name="swipe_mode_off">Off</string>
+    <string name="swipe_mode_on">On</string>
+    <string name="swipe_mode_inverse">Inverse</string>
+    <string name="setting_swipe_scroll_amount">Scroll amount</string>
+    <string name="setting_swipe_sensitivity">Sensitivity</string>
+    <string name="setting_swipe_alpha_animation">Fade during swipe</string>
+    <string name="setting_swipe_pull_animation">Pull animation</string>
+    <string name="setting_swipe_disable_normal_scroll">Disable normal scroll</string>
+
+    <string name="setting_show_images">Show images</string>
+    <string name="setting_show_image_captions">Show captions</string>
+    <string name="setting_image_corner_roundness">Corner roundness</string>
+    <string name="setting_image_alignment">Alignment</string>
+    <string name="setting_image_width_percent">Width</string>
+    <string name="setting_image_color_effect">Color effect</string>
+    <string name="effect_none">None</string>
+    <string name="effect_grayscale">Grayscale</string>
+    <string name="effect_sepia">Sepia</string>
+
+    <string name="setting_show_progress_bar">Show progress bar</string>
+    <string name="setting_progress_bar_alignment">Label alignment</string>
+    <string name="setting_progress_bar_padding">Padding</string>
+    <string name="setting_progress_bar_font_size">Font size</string>
+    <string name="setting_progress_display_mode">Display</string>
+    <string name="display_percentage">Percentage</string>
+    <string name="display_count">Item count</string>
+    <string name="setting_double_tap_translate">Double-tap word to translate</string>
+    <string name="setting_orientation_lock">Screen orientation</string>
+    <string name="orientation_default">Default</string>
+    <string name="orientation_portrait">Portrait</string>
+    <string name="orientation_landscape">Landscape</string>
+    <string name="setting_custom_brightness_enabled">Custom brightness</string>
+    <string name="setting_custom_brightness">Brightness</string>
+
+    <string name="section_appearance">Appearance</string>
+    <string name="section_general">General</string>
+    <string name="section_backup">Backup &amp; Restore</string>
+    <string name="section_statistics">Statistics</string>
+    <string name="action_export_backup">Export backup</string>
+    <string name="action_import_backup">Import backup</string>
+    <string name="backup_export_subtitle">Save your library, progress, and settings to a file</string>
+    <string name="backup_import_subtitle">Restore from a previously exported file</string>
+    <string name="backup_files_note">Book files themselves aren\'t included — only titles, progress, and settings. Files must still be at their original location, or re-imported from Browse.</string>
+    <string name="backup_export_success">Backup saved</string>
+    <string name="backup_export_failure">Couldn\'t save the backup</string>
+    <string name="backup_import_success">Import complete — books: %1$d, categories: %2$d</string>
+    <string name="backup_import_failure">Couldn\'t import that file — is it a Pixel E-Book Reader backup?</string>
+    <string name="import_mode_replace">Replace</string>
+    <string name="import_mode_replace_description">Erase everything on this device and restore from the backup</string>
+    <string name="import_mode_merge">Merge</string>
+    <string name="import_mode_merge_description">Add the backup\'s books and categories alongside what\'s already here</string>
+    <string name="section_about">About</string>
+    <string name="settings_row_statistics_subtitle">Reading time, streaks, and progress</string>
+
+    <string name="stats_totals">Totals</string>
+    <string name="stats_total_time">Total reading time</string>
+    <string name="stats_current_streak">Current streak</string>
+    <plurals name="stats_streak_days">
+        <item quantity="one">%1$d day</item>
+        <item quantity="other">%1$d days</item>
+    </plurals>
+    <string name="stats_books_finished">Books finished</string>
+    <string name="stats_chapters_read">Chapters read</string>
+    <string name="stats_history">Last 14 days</string>
+    <string name="stats_history_placeholder">Keep reading to build up a history chart</string>
+    <string name="stats_history_content_description">Chart of reading time per day for the last 14 days</string>
+    <string name="stats_history_caption">Minutes read per day</string>
+    <string name="stats_duration_hours_minutes">%1$dh %2$dm</string>
+    <string name="stats_duration_minutes">%1$dm</string>
+    <string name="stats_empty_title">No reading activity yet</string>
+    <string name="stats_empty_body">Open a book and start reading — your time, streaks, and progress will show up here.</string>
+    <string name="setting_dynamic_color">Dynamic color (Material You)</string>
+    <string name="setting_dynamic_color_subtitle">Sync with wallpaper colors</string>
+    <string name="setting_color_theme">Color theme</string>
+    <string name="theme_app_default">App default</string>
+    <string name="setting_theme_mode">Theme</string>
+    <string name="theme_mode_light">Light</string>
+    <string name="theme_mode_dark">Dark</string>
+    <string name="theme_mode_system">System default</string>
+    <string name="setting_theme_contrast">Contrast</string>
+    <string name="contrast_standard">Standard</string>
+    <string name="contrast_medium">Medium</string>
+    <string name="contrast_high">High</string>
+    <string name="setting_pure_dark">Pure Black</string>
+    <string name="setting_pure_dark_subtitle">True black background in dark theme</string>
+    <string name="setting_absolute_dark">Absolute Black</string>
+    <string name="setting_absolute_dark_subtitle">Flatten every surface to black in dark theme</string>
+
+    <string name="setting_show_start_screen">Show start screen</string>
+    <string name="setting_double_press_back">Press back twice to exit</string>
+    <string name="setting_language">Language</string>
+    <string name="language_system_default">System default</string>
+
+    <string name="about_version">Version %1$s</string>
+    <string name="about_app_description">A modern e-book reader for PDF, EPUB, FB2, TXT, HTML, and Markdown, with deep reader customization, reading statistics, and text-to-speech — everything staying on your device.</string>
+    <string name="section_privacy_policy">Privacy Policy</string>
+
+    <string name="section_open_source_licenses">Open-source licenses</string>
+    <string name="settings_row_licenses_subtitle">Libraries this app is built on</string>
+    <string name="section_licenses_intro_title">Built with open source</string>
+    <string name="section_licenses_intro_body">Pixel E-Book Reader is built using the following open-source libraries. Tap any entry to view its license.</string>
+    <string name="licenses_footer_format">%1$s — %2$d</string>
+    <string name="library_version_license_format">%1$s · %2$s</string>
+    <string name="license_badge_apache">Apache 2.0</string>
+    <string name="license_badge_mit">MIT</string>
+    <string name="license_badge_bsd2">BSD-2-Clause</string>
+    <string name="lib_desc_compose">Modern declarative UI toolkit — every screen in this app is built with it.</string>
+    <string name="lib_desc_room">SQLite persistence for the library catalog: books, categories, history, color presets, and reading sessions.</string>
+    <string name="lib_desc_jsoup">HTML/XML parsing — powers the EPUB, FB2, and HTML/HTM format parsers.</string>
+    <string name="lib_desc_commonmark">Markdown parsing for the .md format parser.</string>
+    <string name="lib_desc_pdfbox">PDF parsing and rendering for the .pdf format parser.</string>
+
+    <string name="theme_ocean">Ocean</string>
+    <string name="theme_forest">Forest</string>
+    <string name="theme_sunset">Sunset</string>
+    <string name="theme_grape">Grape</string>
+    <string name="theme_rose">Rose</string>
+    <string name="theme_slate">Slate</string>
+    <string name="theme_gold">Gold</string>
+    <string name="theme_teal">Teal</string>
+    <string name="theme_plum">Plum</string>
+    <string name="theme_moss">Moss</string>
+    <string name="theme_coral">Coral</string>
+    <string name="theme_indigo">Indigo</string>
+    <string name="theme_mustard">Mustard</string>
+    <string name="theme_crimson">Crimson</string>
+    <string name="theme_mint">Mint</string>
+    <string name="theme_periwinkle">Periwinkle</string>
+
+    <string name="onboarding_tagline">Your books, your device, your rules.</string>
+    <string name="onboarding_feature_formats_title">Every format that matters</string>
+    <string name="onboarding_feature_formats_body">EPUB, PDF, FB2, TXT, HTML, and Markdown — import from anywhere on your device.</string>
+    <string name="onboarding_feature_customization_title">Make it yours</string>
+    <string name="onboarding_feature_customization_body">Typography, focus aids, reading color presets, and gestures, all tuned live while you read.</string>
+    <string name="onboarding_feature_library_title">Stay organized</string>
+    <string name="onboarding_feature_library_body">Categories, history, and search keep a growing library easy to navigate.</string>
+    <string name="onboarding_feature_privacy_title">Completely private</string>
+    <string name="onboarding_feature_privacy_body">No accounts, no analytics, no network calls. Everything stays on your device.</string>
+    <string name="action_get_started">Get started</string>
+
+    <string name="press_back_again_to_exit">Press back again to exit</string>
+</resources>

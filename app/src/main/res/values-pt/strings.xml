@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Localization scaffolding, not a complete translation — see values-es
+     for the full rationale. -->
+<resources>
+    <string name="title_library">Biblioteca</string>
+    <string name="title_browse">Explorar</string>
+    <string name="title_history">Histórico</string>
+    <string name="title_settings">Configurações</string>
+    <string name="title_book_info">Informações do livro</string>
+    <string name="title_statistics">Estatísticas</string>
+    <string name="action_back">Voltar</string>
+    <string name="action_cancel">Cancelar</string>
+    <string name="action_save">Salvar</string>
+    <string name="action_delete">Excluir</string>
+    <string name="action_search">Pesquisar</string>
+    <string name="category_all">Todos</string>
+    <string name="library_empty_title">Sua biblioteca está vazia</string>
+    <string name="library_empty_body">Importe um livro em Explorar para começar a ler.</string>
+    <string name="section_appearance">Aparência</string>
+    <string name="section_general">Geral</string>
+    <string name="section_about">Sobre</string>
+    <string name="section_statistics">Estatísticas</string>
+    <string name="section_backup">Backup e restauração</string>
+    <string name="setting_language">Idioma</string>
+    <string name="language_system_default">Padrão do sistema</string>
+    <string name="press_back_again_to_exit">Pressione voltar novamente para sair</string>
+    <string name="onboarding_tagline">Seus livros, seu dispositivo, suas regras.</string>
+    <string name="action_get_started">Começar</string>
+    <string name="field_title">Título</string>
+    <string name="field_author">Autor</string>
+    <string name="field_description">Descrição</string>
+    <string name="action_export_backup">Exportar backup</string>
+    <string name="action_import_backup">Importar backup</string>
+    <string name="crash_title">Algo deu errado</string>
+    <string name="crash_action_restart">Reiniciar app</string>
+</resources>
